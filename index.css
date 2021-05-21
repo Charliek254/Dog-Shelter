@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+    background: url(images/dog1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+  }
+nav {
+  width: 100%;
+}
+label.logo {
+  font-size: 25px;
+  line-height: 80px;
+  margin-left: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 50px;
+}
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.text {
+  text-align: center;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.text h2.one {
+  font-size: small;
+  font-weight: 900;
+}
+.text h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+.footer {
+  text-align: center;
+  background-color: #031213;
+  color: white;
+  padding-top: 65px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.footer .two {
+  font-size: 15px;
+  font-weight: 900;
+  color: rgb(85, 84, 84);
+}
+.footer h1 {
+  font-size: 60px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.icons .heart img {
+  height: 80px;
+}
+.icons .user img {
+  height: 80px;
+}
+.icons .bank img {
+  height: 80px;
+}
+.copyright {
+  border-top: 2px solid white;
+  opacity: 0.5;
+  padding-bottom: 20px;
+}
+.copyright p {
+  padding-top: 20px;
+}
